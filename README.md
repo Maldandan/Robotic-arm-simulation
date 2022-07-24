@@ -184,3 +184,14 @@ This will detect **blue** color and publish the x,y coordinates to /direction to
 This will subscribe to /direction topic and execute motion by using Moveit move group
 
 **We can’t visualize the pick and place actions in gazebo**
+
+# Testing
+
+Using ```roslaunch robot_arm_pkg check_motors.launch``` In terminal.
+
+![Screenshot (8)](https://user-images.githubusercontent.com/109004035/180627529-5163074b-15a8-405d-9485-e4c562e5059c.png)
+
+moving the arm,
+
+![Screenshot (9)](https://user-images.githubusercontent.com/109004035/180627536-47dfbab1-9268-417e-8c54-711b962c07d2.png)
+
