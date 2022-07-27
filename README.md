@@ -1,12 +1,11 @@
 # arduino_robot_arm
-ROS packages that can be used to plan and execute motion trajectories for a robot arm in simulation and real-life.
+A robot arm's motion paths may be planned and carried out using ROS packages, both in simulation and in the real world.
 
 
 
-These packages were tested under ROS kinetic and Ubuntu 16.04 and it works perfectly on ROS melodic and noetic
+These packages have been thoroughly tested with ROS kinetic and Ubuntu 16.04, and they operate flawlessly under ROS melodic and noetic.
 
-The robot arm uses Moveit plugin to apply kinematics by the KDL solver. These packages can be tested in the gazebo simulation tool and the real robot arm, where the ROS system and Arduino code share the ```/joint_states``` topic to control motors.
-
+Kinematics are applied via the KDL solver using the Moveit plugin on the robot arm. These packages may be tested using the gazebo simulation tool and an actual robot arm, where the "'/joint states"' topic is shared by the ROS system and Arduino code to operate motors.
 
 ## Dependencies
 run this instruction inside your workspace:
@@ -43,7 +42,7 @@ $ sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
 ```
 
 ## Robot Arm
-The robot arm has 5 joints only 4 joints can be fully controlled via ROS and Rviz, the last joint (gripper) has a default motion executed from the Arduino code directly.
+Only 4 of the robot arm's 5 joints can be completely controlled using ROS and Rviz, while the final joint (the gripper) has a default motion that is carried out by the Arduino code itself.
 ### Circuit diagram 
 ![circuit](circuit.png)
 ### Robot initial positions
