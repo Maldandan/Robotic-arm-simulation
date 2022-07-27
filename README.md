@@ -5,7 +5,7 @@ A robot arm's motion paths may be planned and carried out using ROS packages, bo
 
 These packages have been thoroughly tested with ROS kinetic and Ubuntu 16.04, and they operate flawlessly under ROS melodic and noetic.
 
-Kinematics are applied via the KDL solver using the Moveit plugin on the robot arm. These packages may be tested using the gazebo simulation tool and an actual robot arm, where the "'/joint states"' topic is shared by the ROS system and Arduino code to operate motors.
+Kinematics are applied via the KDL solver using the Moveit plugin on the robot arm. These packages may be tested using the gazebo simulation tool and an actual robot arm, where the ```/joint states``` topic is shared by the ROS system and Arduino code to operate motors.
 
 ## Dependencies
 run this instruction inside your workspace:
